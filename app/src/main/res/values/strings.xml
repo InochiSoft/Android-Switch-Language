@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Language</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_en">English</string>
+    <string name="action_id">Indonesia</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="birth_date">Birth Date</string>
+</resources>

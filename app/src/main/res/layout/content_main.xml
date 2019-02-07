@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <FrameLayout
+        android:id="@+id/fraMain"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvwName"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="name" />
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvwEmail"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="email" />
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvwAddress"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="address" />
+
+                <EditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:lines="2"
+                    android:gravity="top"
+                    android:inputType="textMultiLine" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvwBirthDate"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="birth_date" />
+
+                <EditText
+                    android:id="@+id/editBirthDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:lines="2"
+                    android:gravity="top"
+                    android:inputType="date" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

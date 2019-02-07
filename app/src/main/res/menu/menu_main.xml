@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.inochi.language.MainActivity">
+    <item
+        android:id="@+id/action_en"
+        android:orderInCategory="100"
+        android:title="@string/action_en"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_id"
+        android:orderInCategory="100"
+        android:title="@string/action_id"
+        app:showAsAction="ifRoom" />
+</menu>
